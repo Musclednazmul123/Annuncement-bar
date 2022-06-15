@@ -7,6 +7,7 @@ import {
   Stack,
   Link,
   Heading,
+  Button,
 } from "@shopify/polaris";
 
 import trophyImgUrl from "../assets/home-trophy.png";
@@ -28,7 +29,7 @@ export function HomePage() {
               <Stack.Item fill>
                 <TextContainer spacing="loose">
                   <Heading>Welcome to my annuncement Apps</Heading>
-                  
+                  <Button>Get Start</Button>
                 </TextContainer>
               </Stack.Item>
               <Stack.Item>
@@ -43,9 +44,9 @@ export function HomePage() {
             </Stack>
           </Card>
         </Layout.Section>
-        <Layout.Section secondary>
-          {/* <ProductsCard /> */}
-        </Layout.Section>
+        {/* <Layout.Section secondary>
+          <ProductsCard />
+        </Layout.Section> */}
       </Layout>
     </Page>
   );
