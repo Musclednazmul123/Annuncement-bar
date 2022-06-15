@@ -8,6 +8,7 @@ import {
   Link,
   Heading,
   Button,
+  DropZone,
 } from "@shopify/polaris";
 
 import trophyImgUrl from "../assets/home-trophy.png";
@@ -47,6 +48,13 @@ export function HomePage() {
         {/* <Layout.Section secondary>
           <ProductsCard />
         </Layout.Section> */}
+        <Layout.Section>
+          <Card sectioned>
+            <DropZone label="Upload you Files">
+              <DropZone.FileUpload />
+            </DropZone>
+          </Card>
+        </Layout.Section>
       </Layout>
     </Page>
   );
